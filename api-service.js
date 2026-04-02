@@ -18,7 +18,7 @@ function getProjectHealth() {
 
 module.exports = { getWaterData, getProjectHealth };
 
-// Fix for sensor sync issue
+// Fix for sensor sync issue pull request 
 function syncSensorData() {
   return "Sensor data synced successfully";
 }
